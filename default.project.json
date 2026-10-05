@@ -1,0 +1,15 @@
+{
+  "name": "steal-an-egg",
+  "tree": {
+    "$className": "DataModel",
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "MapBuilder": {
+        "$path": "src/server/MapBuilder"
+      },
+      "BuildMap": {
+        "$path": "src/server/BuildMap.server.luau"
+      }
+    }
+  }
+}
